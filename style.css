@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  background-color: #fdfc84;
+  overflow: hidden;
+}
+
+#page-wrap {
+  margin-top: -3vh;
+  
+}
+
+#stickers {
+  position: absolute;
+  z-index: 5;
+  margin-left: 3vw;
+}
+
+#label {
+font-family: swear-text, serif;
+font-weight: 500;
+font-style: normal;
+font-size: 16px;
+display: flex;
+justify-content: center;
+margin-top: -2vh;
+}
+
+#results {
+font-family: swear-text, serif;
+font-weight: 500;
+font-style: normal;
+font-size: 24px;
+text-align: center;
+list-style-type: none;
+color: #ff4632;
+}
+
+#summary {
+  width: 42vw;
+  font-size: 16px;
+  margin: auto;
+  margin-top: 1vh;
+}
+
+#ratings {
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  border-color: #ff4632;
+}
+
+#button {
+font-family: swear-text, serif;
+font-weight: 500;
+font-style: normal;
+font-size: 20px;
+background-color: #ff4632;
+border-style: none;
+border-radius: 25px;
+padding-left: 20px;
+padding-right: 20px;
+color: #fdfc84;
+margin-left: 2vw;
+margin-top: -2px;
+}
+
+
+h1 {
+font-family: swear-display, serif;
+font-weight: 600;
+font-style: normal;
+font-size: 100px;
+text-align: center;
+line-height: 75px;
+margin-top: 15vh;
+color: #ff63ba;
+stroke-width: 3px;
+stroke-color: #ff4632;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#image {
+  margin-top: 20vh;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#response-1 {
+  display: none;
+}
+
